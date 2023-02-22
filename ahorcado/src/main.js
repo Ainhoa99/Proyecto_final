@@ -1,15 +1,17 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-// bootrap
+// bootstrap
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 
 // font awesome
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faEnvelope, faUsers } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faPhone);
+library.add(faEnvelope);
+library.add(faHome);
+library.add(faUsers);
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 

@@ -1,22 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <navBar msg="Welcome to Your Vue.js App"/>
 
-
-<!-- explicit style -->
-<font-awesome-icon :icon="['fas', 'phone']" />
-
-<!-- implicit style (fas is assumed) -->
-<font-awesome-icon icon="phone" />
+<!-- Iconos de font awesome -->
+<!--
+<font-awesome-icon icon="envelope" />
+<font-awesome-icon icon="home" />
+<font-awesome-icon icon="users" />
+-->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import navBar from './components/navBar.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    navBar
   }
 }
 </script>
@@ -25,11 +24,18 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: black;
+  margin: 0;
+  padding: 0;
 }
 </style>

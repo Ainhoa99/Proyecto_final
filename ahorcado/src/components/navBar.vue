@@ -1,0 +1,45 @@
+<template>
+
+<div class="row">
+    <div class="col-12">
+        <nav class="navbar navbar-expand-md bg-primary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-block d-sm-none">
+                        <img src="../assets/logo.png" alt="Logo">
+                    </div>
+                <div class="collapse navbar-collapse" id="navbarsExample03">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"> <font-awesome-icon icon="home" /> Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"> <font-awesome-icon icon="users" /> Sobre nosotros </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#"> <font-awesome-icon icon="envelope" /> Contacto </a>
+                        </li>
+                    </ul>
+                    <div class="d-none d-sm-block">
+                        <img src="../assets/logo.png" alt="Logo">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+</template>
+
+<script>
+export default {
+  name: 'navBar',
+  props: {
+    msg: String
+  }
+}
+</script>

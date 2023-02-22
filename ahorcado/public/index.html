@@ -6,61 +6,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
-    <link rel="stylesheet" href="../src/css/bootstrap.min.css">
   </head>
   <body>
     <div class="container-fluid">
-      <!--NAV BAR-->
-      <div class="row">
-          <div class="col-12">
-              <nav class="navbar navbar-expand-md bg-info">
-                  <div class="container-fluid">
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
-                          aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                      </button>
-      
-                      <div class="collapse navbar-collapse" id="navbarsExample03">
-                          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
-                              <li class="nav-item">
-                                  <a class="nav-link active" aria-current="page" href="#"> <img src="img/house.svg"
-                                          alt="Home"></a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link active" aria-current="page" href="#">Informazioa</a>
-                              </li>
-                              <li class="nav-item dropdown">
-                                  <a class="nav-link active dropdown-toggle" href="#" id="dropdown03"
-                                      data-bs-toggle="dropdown" aria-expanded="false">Aukerak</a>
-                                  <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                                      <li><a class="dropdown-item" href="#">Gozaria</a></li>
-                                      <li><a class="dropdown-item" href="#">Bazkaria</a></li>
-                                      <li><a class="dropdown-item" href="#">Afaria</a></li>
-                                      <li><a class="dropdown-item" href="#">Gaurko aholkua</a></li>
-                                  </ul>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link active" href="#">Kontaktua</a>
-                              </li>
-                          </ul>
-                          <form>
-                              <div id="Buscar">
-                                  <input class="form-control" type="text" placeholder="Bilatu" aria-label="">
-                                  <button class="btn btn-outline-dark">Search</button>
-                              </div>
-      
-                          </form>
-                      </div>
-                  </div>
-              </nav>
-          </div>
-      </div>
-
-      <!-- Plantillas de las paginas -->
-      <div class="row">
         <div id="app"></div>
-      </div>
     </div>
 
     <!-- Si javascript no esta habilitado -->
