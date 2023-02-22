@@ -1,6 +1,13 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+
+<!-- explicit style -->
+<font-awesome-icon :icon="['fas', 'phone']" />
+
+<!-- implicit style (fas is assumed) -->
+<font-awesome-icon icon="phone" />
 </template>
 
 <script>
@@ -13,6 +20,8 @@ export default {
   }
 }
 </script>
+
+
 
 <style>
 #app {
