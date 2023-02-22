@@ -9,7 +9,7 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="d-block d-sm-none">
+                <div class="d-block d-sm-block d-md-none">
                         <img src="../assets/logo.png" alt="Logo">
                     </div>
                 <div class="collapse navbar-collapse" id="navbarsExample03">
@@ -24,7 +24,7 @@
                             <a class="nav-link active" href="#"> <font-awesome-icon icon="envelope" /> Contacto </a>
                         </li>
                     </ul>
-                    <div class="d-none d-sm-block">
+                    <div class="d-none d-sm-none d-md-block">
                         <img src="../assets/logo.png" alt="Logo">
                     </div>
                 </div>
