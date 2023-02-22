@@ -1,0 +1,6 @@
+// Iniciar proyecto
+npm install -g @vue/cli
+vue create my-project
+
+// Arrancar proyecto
+npm run serve
