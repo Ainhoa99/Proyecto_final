@@ -5,6 +5,8 @@
 
   <footerBar msg=""/>
 
+  <juegoAhorcado msg=""/>
+
 <!-- Iconos de font awesome -->
 <!--
 <font-awesome-icon icon="envelope" />
@@ -19,10 +21,12 @@ import navBar from './components/navBar.vue'
 import menuPrincipal from './components/menuPrincipal.vue'
 import footerBar from './components/footerBar.vue'
 
+import juegoAhorcado from './components/juegoAhorcado.vue'
+
 export default {
   name: 'App',
   components: {
-    navBar, footerBar, menuPrincipal
+    navBar, footerBar, menuPrincipal, juegoAhorcado
   }
 }
 </script>
@@ -48,5 +52,11 @@ body {
 
 .icon {
   width: 100px;
+}
+
+.contenido {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 </style>

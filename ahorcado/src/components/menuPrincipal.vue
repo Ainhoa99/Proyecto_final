@@ -1,7 +1,13 @@
 <template>
     <div class="row">
         <div class="col-12">
-            ae
+            <div class="contenido">
+                <h3> Juego del ahorcado </h3>
+                <p>¡Adivina la palabra letra a letra antes de que se acaben tus intentos para ganar!</p>
+                <br><br><br>
+                <button type="button" class="btn btn-lg btn-warning">Jugar</button>
+            </div>
+            
         </div>
     </div>
 </template>
