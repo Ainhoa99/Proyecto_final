@@ -59,4 +59,8 @@ body {
   padding-top: 5%;
   padding-bottom: 5%;
 }
+.logo {
+  width: 200px;
+  height: auto;
+}
 </style>

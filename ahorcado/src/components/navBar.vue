@@ -10,22 +10,22 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="d-block d-sm-block d-md-none">
-                        <img src="../assets/logo.png" alt="Logo">
+                        <img class="logo" src="icons/logoAhorcado.png" alt="Logo">
                     </div>
                 <div class="collapse navbar-collapse" id="navbarsExample03">
                     <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"> <font-awesome-icon icon="home" /> Home </a>
+                            <h2><a class="nav-link active" aria-current="page" href="#"> <font-awesome-icon icon="home" /> Home </a></h2>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"> <font-awesome-icon icon="users" /> Sobre nosotros </a>
+                            <h2><a class="nav-link active" aria-current="page" href="#"> <font-awesome-icon icon="users" /> Sobre nosotros </a></h2>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#"> <font-awesome-icon icon="envelope" /> Contacto </a>
+                            <h2><a class="nav-link active" href="#"> <font-awesome-icon icon="envelope" /> Contacto </a></h2>
                         </li>
                     </ul>
                     <div class="d-none d-sm-none d-md-block">
-                        <img src="../assets/logo.png" alt="Logo">
+                        <img class="logo" src="icons/logoAhorcado.png" alt="Logo">
                     </div>
                 </div>
             </div>
