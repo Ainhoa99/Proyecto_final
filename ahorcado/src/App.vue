@@ -1,21 +1,28 @@
 <template>
-  <navBar msg="Welcome to Your Vue.js App"/>
+  <navBar msg=""/>
+
+  <menuPrincipal msg=""/>
+
+  <footerBar msg=""/>
 
 <!-- Iconos de font awesome -->
 <!--
 <font-awesome-icon icon="envelope" />
 <font-awesome-icon icon="home" />
 <font-awesome-icon icon="users" />
+
 -->
 </template>
 
 <script>
 import navBar from './components/navBar.vue'
+import menuPrincipal from './components/menuPrincipal.vue'
+import footerBar from './components/footerBar.vue'
 
 export default {
   name: 'App',
   components: {
-    navBar
+    navBar, footerBar, menuPrincipal
   }
 }
 </script>
@@ -37,5 +44,9 @@ body {
   color: black;
   margin: 0;
   padding: 0;
+}
+
+.icon {
+  width: 100px;
 }
 </style>

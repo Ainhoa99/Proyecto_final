@@ -33,13 +33,11 @@
     </div>
 </div>
 
+
 </template>
 
 <script>
 export default {
-  name: 'navBar',
-  props: {
-    msg: String
-  }
+  name: 'navBar'
 }
 </script>

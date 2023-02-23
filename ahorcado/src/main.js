@@ -7,11 +7,12 @@ import "bootstrap"
 
 // font awesome
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faHome, faEnvelope, faUsers } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faEnvelope, faUsers, } from "@fortawesome/free-solid-svg-icons";
 
 library.add(faEnvelope);
 library.add(faHome);
 library.add(faUsers);
+
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
