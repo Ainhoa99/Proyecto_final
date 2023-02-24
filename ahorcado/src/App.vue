@@ -7,6 +7,8 @@
 
   <juegoAhorcado msg=""/>
 
+  <contactoVista msg=""/>
+
 <!-- Iconos de font awesome -->
 <!--
 <font-awesome-icon icon="envelope" />
@@ -23,10 +25,14 @@ import footerBar from './components/footerBar.vue'
 
 import juegoAhorcado from './components/juegoAhorcado.vue'
 
+import contactoVista from './components/contactoVista.vue'
+
+
+
 export default {
   name: 'App',
   components: {
-    navBar, footerBar, menuPrincipal, juegoAhorcado
+    navBar, footerBar, menuPrincipal, juegoAhorcado, contactoVista
   }
 }
 </script>
