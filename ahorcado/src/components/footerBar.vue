@@ -30,7 +30,10 @@
 
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.1);">
-            <strong>Proyecto de fin de grado - 2dw3</strong> 
+            <p><strong>
+                Proyecto de fin de grado - 2dw3 <br>
+                Xabier Bravo - Ainhoa López
+            </strong></p>
         </div>
         <!-- Copyright -->
     </footer>
