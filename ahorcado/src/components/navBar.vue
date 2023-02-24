@@ -1,7 +1,6 @@
 <template>
 
 <div class="row">
-    <div class="col-12">
         <nav class="navbar navbar-expand-md bg-primary">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -30,7 +29,6 @@
                 </div>
             </div>
         </nav>
-    </div>
 </div>
 
 
