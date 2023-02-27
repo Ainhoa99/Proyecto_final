@@ -61,7 +61,7 @@ margin: 0;
 padding: 0;
 }
 .icon {
-width: 75px;
+width: 50px;
 }
 
 .contenido {

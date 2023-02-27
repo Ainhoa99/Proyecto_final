@@ -1,7 +1,7 @@
 <template>
     <footer class="bg-primary text-center row">
         <!-- Grid container -->
-        <div class="container p-4 pb-0">
+        <div class="container p-2 pb-0">
             <!-- Section: Social media -->
             <section class="mb-4">
                 <!-- Facebook -->
@@ -29,7 +29,7 @@
         <!-- Grid container -->
 
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.1);">
+        <div class="text-center" style="background-color: rgba(0, 0, 0, 0.1);">
             <p><strong>
                 Proyecto de fin de grado - 2dw3 <br>
                 Xabier Bravo - Ainhoa López
