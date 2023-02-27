@@ -1,77 +1,47 @@
 <template>
+  <nav>
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link> | 
+    <router-link to="/contact">Contact</router-link>
+  </nav>
   <navBar msg=""/>
-
-  <menuPrincipal msg=""/>
-
+  <router-view/>
   <footerBar msg=""/>
-
-  <juegoAhorcado msg=""/>
-
-  
-  <aboutUs msg=""/>
-  
-
-  <contactoVista msg=""/>
-
-<!-- Iconos de font awesome -->
-<!--
-<font-awesome-icon icon="envelope" />
-<font-awesome-icon icon="home" />
-<font-awesome-icon icon="users" />
-
--->
 </template>
 
 <script>
 import navBar from './components/navBar.vue'
-import menuPrincipal from './components/menuPrincipal.vue'
 import footerBar from './components/footerBar.vue'
-
-import juegoAhorcado from './components/juegoAhorcado.vue'
-
-import aboutUs from './components/aboutUs.vue'
-import contactoVista from './components/contactoVista.vue'
 
 
 
 export default {
-  name: 'App',
+  name: 'HomeView',
   components: {
-    navBar, footerBar, menuPrincipal, juegoAhorcado, aboutUs, contactoVista
+    navBar, footerBar
   }
 }
 </script>
 
-
-
 <style>
 #app {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: larger;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: black;
-  margin: 0;
-  padding: 0;
+  color: #2c3e50;
 }
 
-.icon {
-  width: 100px;
+nav {
+  padding: 30px;
 }
 
-.contenido {
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+nav a {
+  font-weight: bold;
+  color: #2c3e50;
 }
-.logo {
-  width: 200px;
-  height: auto;
+
+nav a.router-link-exact-active {
+  color: #42b983;
 }
 </style>

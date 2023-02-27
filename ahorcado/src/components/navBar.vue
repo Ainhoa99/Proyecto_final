@@ -1,5 +1,4 @@
 <template>
-
 <div class="row">
         <nav class="navbar navbar-expand-md bg-primary">
             <div class="container-fluid">
