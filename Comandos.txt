@@ -1,6 +1,8 @@
 // Iniciar proyecto
 npm install -g @vue/cli
 vue create my-project
+// instalar node modules
+npm i
 //installar router
 vue add router
 
