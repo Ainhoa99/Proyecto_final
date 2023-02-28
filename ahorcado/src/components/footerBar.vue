@@ -29,7 +29,7 @@
         <!-- Grid container -->
 
         <!-- Copyright -->
-        <div class="text-center" style="background-color: rgba(0, 0, 0, 0.1);">
+        <div class="text-center bg-primary">
             <p><strong>
                 Proyecto de fin de grado - 2dw3 <br>
                 Xabier Bravo - Ainhoa López

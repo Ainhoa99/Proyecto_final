@@ -1,10 +1,12 @@
 <template>
     <div class="row">
-        <div class="col-12">
-            <div class="contenido">
-                <h3>Metodos de contacto</h3>
-                <p>Haga click en los iconos de Gmail y Github si desea ver nuestro trabajo.</p>
-            </div>
+        <div class="contenido">
+            <h2>Método de contacto</h2>
+            <p>
+                Podrá ponerse en contacto con nosotros a traves del email, facebook, twitter y whatsapp
+                <br>
+                Además, si quiere ver nuestro trabajo, lo tendrá disponible en gitHub pulsando en el enlace situado en la zona inferior de la página.
+            </p>
         </div>
     </div>
 </template>

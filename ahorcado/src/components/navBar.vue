@@ -23,7 +23,7 @@
                         </li>
                     </ul>
                     <div class="d-none d-sm-none d-md-block">
-                        <img class="logo" src="icons/logoAhorcado.png" alt="Logo">
+                        <router-link to="/"><img class="logo" src="icons/logoAhorcado.png" alt="Logo"></router-link>
                     </div>
                 </div>
             </div>

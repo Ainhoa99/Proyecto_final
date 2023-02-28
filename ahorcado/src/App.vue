@@ -37,10 +37,16 @@ nav a {
   font-weight: bold;
   color: black;
   font-size: 30px;
+  text-decoration: none;
 }
+nav a:hover{
+  color: white;
+}
+
+
 svg{
   width: 50px;
-  height: 50px;
+  height: 30px;
 }
 
 nav a.router-link-exact-active {
@@ -62,6 +68,11 @@ padding: 0;
 }
 .icon {
 width: 50px;
+transition: .3s;
+}
+
+.icon:hover {
+transform: scale(1.5);
 }
 
 .contenido {
@@ -77,6 +88,17 @@ footer{
   position: fixed;
   width: 100%;
   bottom: 0;
+}
+h1, h2{
+  font-weight: 20px;
+  padding: 20px;
+}
+button{
+  padding: 50px;
+  transition: .3s;
+}
+button:hover{
+  transform: scale(1.2);
 }
 </style>
 
