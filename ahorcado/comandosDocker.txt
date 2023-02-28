@@ -1,0 +1,17 @@
+// montar el contenedor
+docker-compose up -d 
+
+// borrar todas las imagenes
+docker system prune --all
+// borrar imagen {id}
+docker image rm --force de7b3c2ffad3
+
+
+// preparo para subir mi imagen al docker hub
+docker images ls /<!>/ docker images
+
+docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
+docker tag 1cc9dc9e7bc8 xabiertrabajo/simplephp:1.0
+
+// subir la imagen al docker hub
+docker push xabiertrabajo/simplephp:1.0
