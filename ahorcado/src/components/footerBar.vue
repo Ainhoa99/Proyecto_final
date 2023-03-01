@@ -3,7 +3,7 @@
         <!-- Grid container -->
         <div class="container p-2 pb-0">
             <!-- Section: Social media -->
-            <section class="mb-4">
+            <section class="mb-2">
                 <!-- Facebook -->
                 <a class="btn text-white btn-floating m-1" href="https://es-es.facebook.com" role="button">
                     <img class="icon" src="icons/facebook.png" alt="Facebook"></a>

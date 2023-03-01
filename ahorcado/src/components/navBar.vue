@@ -13,13 +13,13 @@
                 <div class="collapse navbar-collapse" id="navbarsExample03">
                     <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                         <li class="nav-item">
-                            <h2 class="nav-link active" aria-current="page"><font-awesome-icon icon="home" /><router-link to="/">Home</router-link></h2>
+                            <h2 class="nav-link active" aria-current="page"><font-awesome-icon icon="home" class="fa-xl p-1"/><router-link to="/">Home</router-link></h2>
                         </li>
                         <li class="nav-item">
-                            <h2 class="nav-link active" aria-current="page"><font-awesome-icon icon="users" /><router-link to="/about">About Us</router-link></h2>
+                            <h2 class="nav-link active" aria-current="page"><font-awesome-icon icon="users" class="fa-xl p-1"/><router-link to="/about">About Us</router-link></h2>
                         </li>
                         <li class="nav-item">
-                            <h2 class="nav-link active" aria-current="page"><font-awesome-icon icon="envelope" /><router-link to="/contact">Contact</router-link></h2>
+                            <h2 class="nav-link active" aria-current="page"><font-awesome-icon icon="envelope" class="fa-xl p-1"/><router-link to="/contact">Contact</router-link></h2>
                         </li>
                     </ul>
                     <div class="d-none d-sm-none d-md-block">

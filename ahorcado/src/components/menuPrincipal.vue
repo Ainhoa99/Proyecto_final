@@ -9,10 +9,16 @@
         </div>
             
     </div>
+    <footerBar msg=""/>
 </template>
 
 <script>
+import footerBar from '../components/footerBar.vue'
+
 export default {
-  name: 'menuPrincipal'
+  name: 'menuPrincipal',
+    components: {
+    footerBar
+  }
 }
 </script>

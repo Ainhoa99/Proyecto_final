@@ -1,19 +1,18 @@
 <template>
   <navBar msg=""/>
   <router-view/>
-  <footerBar msg=""/>
 </template>
 
 <script>
 import navBar from './components/navBar.vue'
-import footerBar from './components/footerBar.vue'
+
 
 
 
 export default {
   name: 'HomeView',
   components: {
-    navBar, footerBar
+    navBar
   }
 }
 </script>
@@ -46,7 +45,7 @@ nav a:hover{
 
 svg{
   width: 50px;
-  height: 30px;
+  height: 50px;
 }
 
 nav a.router-link-exact-active {
@@ -77,8 +76,9 @@ transform: scale(1.5);
 
 .contenido {
 text-align: center;
-padding-top: 5%;
+padding-top: 2%;
 padding-bottom: 5%;
+height: 100%;
 }
 .logo {
 width: 100px;
@@ -99,6 +99,41 @@ button{
 }
 button:hover{
   transform: scale(1.2);
+}
+
+#palabra_adivinar{
+  margin: 5px;
+}
+
+#letras{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.letra{
+  background-color: deepskyblue;
+  border-radius: 30px ;
+  font-size: x-small;
+  padding: 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+#jugar{
+  border-radius: 10px;
+  display: flex;
+  padding: 5px;
+}
+
+#imagen_ahorcado{
+  width: 100px;
+}
+
+span{
+  margin: 2px;
+  font-size: xx-large;
+  font-weight: bold;
 }
 </style>
 

@@ -1,3 +1,4 @@
+
 <template>
     <div class="row">
         <div class="contenido">
@@ -9,10 +10,15 @@
             </p>
         </div>
     </div>
+    <footerBar msg=""/>
 </template>
 
 <script>
+import footerBar from '../components/footerBar.vue'
 export default {
-    name: 'contactoVista'
+    name: 'contactoVista',
+    components: {
+    footerBar
+  }
 }
 </script>
