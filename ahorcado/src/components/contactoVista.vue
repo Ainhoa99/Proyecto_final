@@ -6,7 +6,7 @@
             <p>
                 Podrá ponerse en contacto con nosotros a traves del email, facebook, twitter y whatsapp
                 <br>
-                Además, si quiere ver nuestro trabajo, lo tendrá disponible en gitHub pulsando en el enlace situado en la zona inferior de la página.
+                Además, si quiere ver nuestro trabajo, lo tiene disponible en GitHub y Google drive pulsando en los enlaces situados en la zona inferior de la página.
             </p>
         </div>
     </div>
