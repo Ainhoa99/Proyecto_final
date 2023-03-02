@@ -6,7 +6,7 @@
 
         </p>
         <h1> AHORCADO </h1>
-        <img src="../assets/Ahorcado-0.png" alt="ahorcado" id="imagen_ahorcado">
+        <img src="/img/Ahorcado-0.png" alt="ahorcado" id="imagen_ahorcado">
         <div>
           <p id="palabra_adivinar">
           </p>
@@ -116,9 +116,10 @@ export default {
         errores = errores+1;
         console.log(errores);
         // CAMBIO DE LA IMAGEN
-        // const source ='../assets/Ahorcado-'+errores+'.png'
-        // const imagen = document.getElementById('imagen_ahorcado');
-        // imagen.src=source
+        // var source= new URL('/img/Ahorcado-'+errores+'.png', import.meta.url);
+        const imagen = document.getElementById('imagen_ahorcado');
+        imagen.src='/img/Ahorcado-'+errores+'.png'
+
       }
       const resultado = document.getElementById('resultado');
       if (errores == 7){
