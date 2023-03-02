@@ -105,8 +105,6 @@ export default {
       button.disabled=true;
       const letra = button.innerHTML.toLocaleLowerCase();
       const palabra_minus = palabra.toLocaleLowerCase();
-      console.log(letra);
-      console.log(palabra_minus)
       for (let i=0;i<palabra_minus.length;i++){
         if(letra == palabra_minus[i]){
           spans[i].innerHTML=letra
