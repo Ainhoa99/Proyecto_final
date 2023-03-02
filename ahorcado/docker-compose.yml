@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+      
+  # Apache
+  www:
+    build: .
+    container_name: proyectoFinal
+    ports:
+      - 8080:80
+    volumes:
+      - .:/var/www/html/
+    networks:
+      - proyectoFinal
+
+
+volumes:
+  dbdata:
+networks:
+  proyectoFinal:
