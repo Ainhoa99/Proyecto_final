@@ -40,6 +40,7 @@ nav a {
 }
 nav a:hover{
   color: white;
+  text-shadow: 1px 1.5px 2px white;
 }
 
 

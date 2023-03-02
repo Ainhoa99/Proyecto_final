@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div class="contenido">
-        <button id="jugar" class="bg-primary" v-on:click="inicio">Obtener palabra</button>
+        <button id="jugar" class="bg-info" v-on:click="inicio">Obtener palabra</button>
         <p id="resultado">
 
         </p>
