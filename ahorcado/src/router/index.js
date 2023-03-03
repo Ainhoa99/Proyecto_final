@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ContactView from '../views/ContactView.vue'
-import GameView from '../views/GameView.vue'
+import GameAhorcadoView from '../views/GameAhorcadoView.vue'
+import GameSudokuView from '../views/GameAhorcadoView.vue'
 
 const routes = [
   {
@@ -23,9 +24,14 @@ const routes = [
     component: ContactView
   },
   {
-    path: '/game',
-    name: 'game',
-    component: GameView
+    path: '/gameAhorcado',
+    name: 'gameAhorcado',
+    component: GameAhorcadoView
+  },
+  {
+    path: '/gameSudoku',
+    name: 'gameSudoku',
+    component: GameSudokuView
   }
 ]
 
