@@ -86,6 +86,8 @@ export default {
         const cant_palabras = datos.length;
         const valor_azar = this.obtener_random(0,cant_palabras);
         palabra = datos[valor_azar];
+        // ver la palabra elegida
+        console.log(palabra);
         const cant_letras = palabra.length;
         while(parrafo.hasChildNodes()){
           parrafo.removeChild(parrafo.firstChild)
@@ -123,10 +125,10 @@ export default {
       }
       const resultado = document.getElementById('resultado');
       if (errores == 7){
-        resultado.innerHTML="Lo lamento, has perdido la partida";
+        resultado.innerHTML="Lo lamento, has perdido la partida. <br> La palabra era: "+palabra;
         this.finJuego()
       } else if (aciertos==palabra_minus.length) {
-        resultado.innerHTML="ENHORABUENA! Has ganado la partida";
+        resultado.innerHTML="¡ENHORABUENA! Has ganado la partida";
         this.finJuego();
       }
     },
