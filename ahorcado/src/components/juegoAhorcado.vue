@@ -73,6 +73,8 @@ export default {
       return valor_azar
     },
     inicio: function(event){
+      const imagen = document.getElementById('imagen_ahorcado');
+      imagen.src='img/Ahorcado-0.png';
       const resultado = document.getElementById('resultado');
       resultado.innerHTML="";
       const button = event.target;
