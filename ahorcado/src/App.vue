@@ -24,7 +24,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin: 0;
   padding: 0;
 }
 
@@ -63,7 +62,6 @@ font-size: larger;
 -moz-osx-font-smoothing: grayscale;
 text-align: center;
 color: black;
-margin: 0;
 padding: 0;
 }
 .icon {
@@ -96,6 +94,7 @@ h1, h2{
 }
 button{
   padding: 50px;
+  margin: 5px;
   transition: .3s;
 }
 button:hover{
@@ -135,6 +134,12 @@ span{
   margin: 2px;
   font-size: xx-large;
   font-weight: bold;
+}
+.v-line{
+ border-left: thick solid #000;
+ height:100%;
+ left: 50%;
+ position: absolute;
 }
 </style>
 
