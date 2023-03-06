@@ -1,5 +1,5 @@
 <template>
-  <juegoSudoku msg=""/>
+  <juego3Raya msg=""/>
 
 <!-- Iconos de font awesome -->
 <!--
@@ -11,14 +11,14 @@
 </template>
 
 <script>
-import juegoSudoku from '../components/juegoSudoku.vue'
+import juego3Raya from '../components/juego3Raya.vue'
 
 
 
 export default {
 name: 'HomeView',
 components: {
-  juegoSudoku
+  juego3Raya
 }
 }
 </script>

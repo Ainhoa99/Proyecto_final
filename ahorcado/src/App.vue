@@ -135,11 +135,44 @@ span{
   font-size: xx-large;
   font-weight: bold;
 }
-.v-line{
- border-left: thick solid #000;
- height:100%;
- left: 50%;
- position: absolute;
+
+.play-area {
+  display: grid;
+  width: 300px;
+  height: 300px;
+  grid-template-columns: auto auto auto;
+  margin: 0 auto;
+}
+.block {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 3px solid black;
+  transition: background 0.2s ease-in-out;
+}
+#block_0,
+#block_1,
+#block_2 {
+  border-top: none;
+}
+#block_0,
+#block_3,
+#block_6 {
+  border-left: none;
+}
+#block_6,
+#block_7,
+#block_8 {
+  border-bottom: none;
+}
+#block_2,
+#block_5,
+#block_8 {
+  border-right: none;
 }
 </style>
 

@@ -5,7 +5,7 @@
           <p>
             Somos un grupo dedicado al Desarrollo de Aplicaciones Web formado por Xabier Bravo y Ainhoa López.
             <br>
-            Hasta el momento hemos hecho una página web que alberga un minijuego, pero seguiremos ampliando el número de juegos disponibles.
+            Hasta el momento hemos hecho una página web que alberga un par de minijuegos, pero seguiremos ampliando el número de juegos disponibles.
             <br>
             Este proyecto nos ha permitido por una parte demostrar lo aprendido durante este grado, y por otra, aplicar estos conocimientos a la realidad profesional.
           </p>
